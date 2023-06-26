@@ -9,6 +9,6 @@ let products = [
     let product = products[i];
     console.log(product.name);
     console.log("  Id: " + product.id);
-    console.log("  Precio: " + product.price);
-    console.log("  Categorías: " + product.categories.join(", "));
+    console.log("  Price: " + product.price);
+    console.log("  Category: " + product.categories.join(", "));
   }
