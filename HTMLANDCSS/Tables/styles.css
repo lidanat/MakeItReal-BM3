@@ -1,0 +1,24 @@
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: aquamarine;
+}
+
+th {
+    width: 100px;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    text-align: center;
+}
+
+.hour {
+    font-weight: bold;
+}

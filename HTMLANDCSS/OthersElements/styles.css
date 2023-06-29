@@ -1,0 +1,12 @@
+.newSpan {
+    color: rgb(21, 72, 214);
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 10px solid blue;    
+    border-radius: 20px;  
+    
+}
