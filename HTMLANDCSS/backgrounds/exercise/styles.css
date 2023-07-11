@@ -1,0 +1,11 @@
+.paragraph {
+    padding: 30px;
+    border: 2px solid red;
+    margin: 20px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.image {
+    background: yellow url('/backgrounds/exercise/woman-in-tech-main.jpeg') no-repeat center center/contain fixed;
+}

@@ -1,0 +1,15 @@
+.box {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    box-shadow: 5px -15px 10px 15px gray;
+}
+
+.text {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: blueviolet;
+    text-shadow: 3px 2px 3px black;
+}

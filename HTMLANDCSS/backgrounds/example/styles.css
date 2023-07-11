@@ -1,0 +1,11 @@
+.background {
+    width: 800px;
+    height: 1000px;
+    /* background-color: aquamarine;
+    background-image: url('/backgrounds/landscape.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain; 
+    background-attachment: fixed; */
+    background: yellow url('/backgrounds/landscape.jpg') no-repeat center center/contain fixed;
+}

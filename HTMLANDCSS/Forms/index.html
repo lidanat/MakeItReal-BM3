@@ -12,11 +12,35 @@
         <input type="text" id="name" name="name" />
         <label for="lastname">Last Name: </label>
         <input type="text" id="lastname" name="lastname" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="user@email.com"/>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"/>
         <label for="comment">
-            <textarea name="comment" id="comment" cols="30" rows="10">
-                Write a comment here...
+            Comment:
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write a comment here">
             </textarea>
         </label>
+        <label for="color">
+            Colors:
+            <select name="colors" id="colors">
+                <option value="" disabled selected>Select a Color</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </label>
+        <label for="terms">Terms and Conditions</label>
+        <input type="checkbox" id="terms" name="terms" />
+        <fieldset>
+            <label for="radio-1">Radio 1</label>
+            <input type="radio" name="radio-options" id="radio-1" checked>
+            <label for="radio-2">Radio 2</label>
+            <input type="radio" name="radio-options" id="radio-2">
+            <label for="radio-3">Radio 3</label>
+            <input type="radio" name="radio-options" id="radio-3">
+        </fieldset>
+        <button type="submit">Send Form</button>
     </form>    
 </body>
 </html>
